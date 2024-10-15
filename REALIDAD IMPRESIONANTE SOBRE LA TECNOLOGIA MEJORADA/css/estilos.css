@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: #607ee2c0;
+    color: #14140a;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .header-img {
+    width: 105%;
+    height: auto;
+  }
+  
+  .logo {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #b81a1a;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .gallery-vertical {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .gallery-item {
+    box-shadow: 0 4px 8px rgb(30, 228, 4);
+    text-align: center;
+    background-color: #0bc093;
+    padding: 10px;
+  }
+  
+  .gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+  }
+  .gallery-item p {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+  }
+  .historia-container {
+    display: flex;
+    gap: 20px; 
+    background-color: #da1818;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .parrafo {
+    flex: 1;
+    padding: 10px;
+    margin-right: 20px; 
+  }
+  
+  .parrafo:last-child {
+    margin-right: 0; 
+  }
+  
+  .contactos-container {
+    display: flex;
+    gap: 20px;
+    background-color: #eef109;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .contacto-item {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #0c2de6;
+    box-shadow: 0 4px 8px rgb(68, 228, 4);
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f38f0db4;
+  }
+  
+  .contacto-item h3 {
+    margin-bottom: 10px;
+  }
+  
+  .contacto-item p {
+    margin: 5px 0;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #05fa05;
+    box-shadow: 0 4px 8px rgb(4, 241, 130);
+    border-radius: 10px;
+  }
+  
+  video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  footer {
+    background-color: #70dbc4;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+  }
